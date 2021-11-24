@@ -1,19 +1,38 @@
 package domain;
 
 public class Post {
-    private String id;
-    private String iconUrl;
-    private String ownerName;
-    private String ownerUrl;
-    private String ownerId;
-    private boolean isCurrentUserSubscribe;
-    private boolean isPostFixed;
-    private String dateTimeUrl;
-    private boolean isSavedInBookmark;
+    private int id;
+    private int ownerId;
+    private int fromId;
+    private int createdBy;
+    private int date;
+    private String text;
+    private int replyOwnerId;
+    private int replyPostId;
+    private int friendOnly;
 
-    private Content content;
-    private PostProperty postProperty;
     private CommentsInfo commentsInfo;
+    private Copyright copyright;
+    private LikesInfo likesInfo;
+    private RepostsInfo repostsInfo;
+    private ViewsInfo viewsInfo;
+
+    private String postType;
+
+    private PostSource postSource;
+    private Geo geo;
+
+    private int dignerId;
+    private int canPin;
+    private int canDelet;
+    private int canEdit;
+    private int isPinned;
+    private int markedAsAds;
+    private boolean isFavorite;
+
+    private Donut donut;
+
+    private int postponedId;
 
     // + get/set на все поля
 }

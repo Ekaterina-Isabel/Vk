@@ -1,9 +1,11 @@
 package domain;
 
 public class CommentsInfo {
-    private int commentsNumber;
-    private String attachFile;
-    private String attachedImage;
+    private int count;
+    private int canPost;
+    private int groupsCanPost;
+    private boolean canClose;
+    private boolean canOpen;
 
     // + get/set на все поля
 }
